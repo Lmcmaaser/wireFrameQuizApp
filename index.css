@@ -12,7 +12,7 @@ body {
 header {
     border: 5px outset black;
     /*border-radius: 10px;*/
-    margin: 30px 50px 55px;
+    margin: 25px 50px 30px;
     color: black;
     padding: 5px;
     text-align: center;
@@ -34,16 +34,26 @@ h1 {
   }
 
 
-label {
+legend {
     font-size: 25px;
     display: block;
+    padding-bottom: 15px;
+    padding-top: 5px;
 }
 
-input {
-  /*display: block;*/
-  width: 250px;
+.option {
+  padding-top: 10px;
 }
 
 button {
     float: right;
-  }
+}
+
+.question-score {
+  border: 5px outset black;
+  text-align: center;
+  padding: 15px;
+  width: auto;
+  margin: 30px 250px 10px;
+  float: center;
+}

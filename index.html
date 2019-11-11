@@ -1,31 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Resource Sustainability Quiz App</title>
-    <meta name="description" type="A quiz app about earth's sustainable resources and waste management.">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="index.css" />
-</head>
-<body>
-    <header>
-        <h1>Resource Sustainability Quiz</h1>
-        <h3>How much do you know?</h3>    
-    </header>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Resource Sustainability Quiz App</title>
+        <meta name="description" type="A quiz app about earth's sustainable resources and waste management.">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="index.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Resource Sustainability Quiz</h1>
+            <h3>How much do you know?</h3>    
+        </header>
     
-    <main class="container">
-        <form id="quiz-form" action="" method="post">
-            <label for="question-one">Question 1: What are the three R's of sustainable waste management?</label>
-                <input type="radio" name="answer" value="A" /> Reduce, recycle, and renew
-                <input type="radio" name="answer" value="B" /> Reduce, reuse, and recycle
-                <input type="radio" name="answer" value="C" /> Recycle, replace, and repair
-                <input type="radio" name="answer" value="D" /> Recycle, repair, and reuse
-            <button type="submit">Submit Answer</button>
-        </form>
-  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
-  <script src="index.js"></script>
-</body>
+        <main class="container">
+            <form id="quiz-form" action="" method="post">
+                <legend for="question-one">Question 1: What are the three R's of sustainable waste management?</legend>
+                <div class="option"><input type="radio" name="answer" value="A" /> Reduce, recycle, and renew</div>
+                <div class="option"><input type="radio" name="answer" value="B" /> Reduce, reuse, and recycle</div>
+                <div class="option"><input type="radio" name="answer" value="C" /> Recycle, replace, and repair</div>
+                <div class="option"><input type="radio" name="answer" value="D" /> Recycle, repair, and reuse</div>
+                <button type="submit">Submit Answer</button>
+            </form>
+        </main>
+        <div class="question-score">
+            Question: 0/7
+            Score: 0/7
+        </div>
+        <footer>Github: <a href="https://github.com/Lmcmaaser" > Lmcmaaser</a></footer>
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+        <script src="index.js"></script>
+    </body>
 </html>
