@@ -40,7 +40,8 @@ label {
 }
 
 input {
-    display: block;
+  /*display: block;*/
+  width: 250px;
 }
 
 button {
